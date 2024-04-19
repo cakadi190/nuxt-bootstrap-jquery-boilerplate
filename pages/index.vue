@@ -19,7 +19,13 @@ onMounted(() => {
 	<div class="container">
 		<div class="row min-vh-100 align-items-center justify-content-center">
 			<div class="col-md-5">
-				<div class="card card-body">
+				<div class="card p-4 rounded-4 card-body">
+          <div class="mb-3 d-flex gap-4 justify-content-center">
+            <span data-bs-toggle="tooltip" data-bs-title="Bootstrap v5.3.3"><Icon size="5rem" name="devicon:bootstrap" /></span>
+            <span data-bs-toggle="tooltip" data-bs-title="Nuxt 3.11.2"><Icon size="5rem" name="logos:nuxt-icon" /></span>
+            <span data-bs-toggle="tooltip" data-bs-title="jQuery 4.0.0-beta"><Icon size="5rem" name="devicon:jquery" /></span>
+          </div>
+
 					<h3 class="text-center">
 						This Is Nuxt 3 With Bootstrap and jQuery 4.0.0-beta
 					</h3>
