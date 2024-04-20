@@ -26,7 +26,7 @@ onMounted(() => {
 
 <style>
 :root {
-  --bs-font-sans-serif: "Inter", sans-serif;
+  --bs-font-sans-serif: "Rubik", sans-serif;
   --bs-font-monospace: "JetBrains Mono", monospace;
 }
 </style>
