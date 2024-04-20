@@ -23,3 +23,10 @@ onMounted(() => {
 		<nuxt-page />
 	</nuxt-layout>
 </template>
+
+<style>
+:root {
+  --bs-font-sans-serif: "Inter", sans-serif;
+  --bs-font-monospace: "JetBrains Mono", monospace;
+}
+</style>

@@ -18,23 +18,25 @@ onMounted(() => {
 <template>
 	<div class="container">
 		<div class="row min-vh-100 align-items-center justify-content-center">
-			<div class="col-md-5">
-				<div class="card p-4 rounded-4 card-body">
-          <div class="mb-3 d-flex gap-4 justify-content-center">
-            <span data-bs-toggle="tooltip" data-bs-title="Bootstrap v5.3.3"><Icon size="5rem" name="devicon:bootstrap" /></span>
-            <span data-bs-toggle="tooltip" data-bs-title="Nuxt 3.11.2"><Icon size="5rem" name="logos:nuxt-icon" /></span>
-            <span data-bs-toggle="tooltip" data-bs-title="jQuery 4.0.0-beta"><Icon size="5rem" name="devicon:jquery" /></span>
-          </div>
+			<div class="col-md-7">
+				<div class="card border-0">
+          <a href="https://nuxt.com" target="_blank" class="pb-4 d-flex gap-4 mx-auto justify-content-center">
+            <Icon name="logos:nuxt" size="2.5rem" width="auto" />
+          </a>
 
-					<h3 class="text-center">
-						This Is Nuxt 3 With Bootstrap and jQuery 4.0.0-beta
-					</h3>
-					<p class="text-center">
-						This Website is Scaffolding for Nuxt 3, Bootstrap 5.3.3 and jQuery
-						4.0.0-beta. If you don't belive that jQuery still can be installed
+					<h1 class="text-center h2 mb-3">
+            Nuxt 3 + Bootstrap + jQuery Starter Template
+					</h1>
+          <p class="text-center mb-1">Let's make something great with this template.</p>
+					<p class="text-center mb-3">
+						If you don't belive that jQuery still can be installed
             on Nuxt 3, you can try it with browser console and type 
             <code>$('div')</code> and hit <kbd>Enter</kbd> to see the result.
 					</p>
+
+          <div class="card card-body text-center mb-3 p-2 px-3 mx-auto" style="font-family: var(--bs-font-monospace); width: max-content; border-color: rgba(var(--bs-body-color-rgb), .05);background: rgba(var(--bs-body-color-rgb), .025);">
+            Get started by editing pages/index.vue and build something awesome. ✨
+          </div>
 
           <p class="mb-0 text-center">Created by <a href="https://instagram.com/cakadi.id">Cak Adi</a> and copyrighted on 2024.</p>
 				</div>
